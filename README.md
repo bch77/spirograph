@@ -1,5 +1,5 @@
 # spirograph
-This is a Python3 implementation of a playground creating images like the old-school Spirograph toy. It uses the pygame library, and also uses the Courier font if it can find it in the system.
+This is a Python3 implementation of a playground for creating images like the old-school Spirograph toy. It uses the pygame library, and also uses the Courier font if it can find it in the system.
 
 Spirograph draws polar Fourier curves in up to four levels. You can control the number of levels, as well as the speed, radius, and angular displacement of each level. 
 
