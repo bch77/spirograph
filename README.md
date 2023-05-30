@@ -1,9 +1,9 @@
 # spirograph
-This is a Python3 implementation of a playground for creating images like the old-school Spirograph toy. It uses the pygame library, and also uses the Courier font if it can find it in the system.
+This is a Python3 implementation of a playground for creating images like the old-school Spirograph® toy. It uses the pygame library, and also uses the Courier font if it can find it in the system.
 
 Spirograph draws polar Fourier curves in up to four levels. You can control the number of levels, as well as the speed, radius, and angular displacement of each level. 
 
-The implementation orbits a point around the center at a given speed, distance, and angular displacement. The next level orbits around that point at its own speed, distance, and angular displacement. The third level orbits that point, and the fourth level orbits that point. The combination of all of these orbits traces out a curve which is plotted. The first two levels of these curves give designs equivalent to those possible with a basic Spirograph set, which are various types of cycloid, epicycloid and hypocycloid curves. Adding additional levels adds some additional complexities not possible with the original toy. 
+The implementation orbits a point around the center at a given speed, distance, and angular displacement. The next level orbits around that point at its own speed, distance, and angular displacement. The third level orbits that point, and the fourth level orbits that point. The combination of all of these orbits traces out a curve which is plotted. The first two levels of these curves give designs equivalent to those possible with a basic Spirograph® set, which are various types of cycloid, epicycloid and hypocycloid curves. Adding additional levels adds some additional complexities not possible with the original toy. 
 
 The goal of this playground is (1) to familiarize the user with these types of curves and with the effects of a Fourier series; (2) to make enjoyable generative art. To the latter end, you can control the colors with which the curves are plotted and also create patterns combining stepwise alteration of all of the parameters. 
 
